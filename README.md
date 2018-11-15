@@ -1,39 +1,28 @@
-<html>
-    <head>
-        <title>Belajar HTML</title>
-    </head>
-    <style>
-        table, th, td
-        {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-    </style>
-    <body>
-        <h1>Hello World</h1>
-        <center>
-            <p>paragraf 1</p>
-            <a href="page2.html">lanjut ke page2</a>
-            <a href="https://www.youtube.com">nonton yuk</a>
-            <img src="images/kissu.jpg" width="300" height="150">
-            <i>italic</i>
-            <em>emphasized</em>
-            <mark>marked</mark>
-            <small>small</small>
-            <del>deleted</del>
-            <ins>inserted</ins>
-        </center>
-        <table border="1">
-            <tr>
-                <th>no</th>
-                <th>name</th>
-                <th>email</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td colspan="2">Lala</td> <!----untuk merge kolom---
-                <!-- <td>lalala@email.com</td> -->
-            </tr>
-        </table>
-    </body>
-</html>
+<!-- <p id="demo"></p>
+
+<script>
+    document.getElementById("demo").innerHTML = 5 + 6;
+</script> -->
+
+<!-- <script src="app.js"></script> -->
+
+<!-- <script>
+    var kabar = prompt('apa kabar?');
+    console.log(kabar);
+
+    alert('kabar: ' + kabar);
+</script> -->
+
+<script>
+
+    var nama = prompt('Silahkan ketik nama anda');
+    console.log('Lintang Wisesa' + nama);
+    var ttl = prompt('Silahkan Ketik Tanggal Lahir Anda');
+    console.log('26 Nov 1992' + ttl);
+    var alamat = prompt('Silahkan Ketik Alamat lengkap Anda');
+    console.log('Griya Loka BSD' + alamat);
+    var profesi = prompt('silahkan ketik jenjang terakhir pendidikan anda');
+    console.log('Hardware Engineer' + profesi);
+
+    alert('Data berhasil disimpan \n Terima kasih');
+</script>
